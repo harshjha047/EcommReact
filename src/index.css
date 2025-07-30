@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.shadow-rap{
+    box-shadow: 0px -5px 5px rgb(100, 100, 100);
+}
+.atcc{
+    opacity: 0;
+    transition: all 200ms;
+    
+}
+/* .card:hover{
+  transform: skew(10deg,10deg);
+} */
+.atc:hover .atcc{
+    opacity: 1;
+}
+/* .text-shadow{
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+} */
+.ovg{
+    overflow-y: scroll;
+}
+.ovg::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Track */
+.ovg::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.ovg::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+.ovg::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

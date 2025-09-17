@@ -14,7 +14,7 @@ const Products = (props) => {
   return (
     <>
       {show ? (
-        <div className=" fixed w-1/4 h-[10vh] text-lg  rounded-xl flex justify-center items-center font-semibold bottom-4 left-4 z-40 bg-green-400 text-white">
+        <div className=" fixed w-1/4 h-[10vh] max-sm:w-[98vw] text-lg  rounded-xl flex justify-center items-center font-semibold bottom-4 left-4 z-40 bg-green-400 text-white">
           Added to Cart
         </div>
       ) : (
@@ -32,7 +32,7 @@ const Products = (props) => {
                   setShow(false);
                 }, 1000);
               }}
-              className="w-[25%] h-[70vh] p-3"
+              className="w-[25%] max-sm:w-[98vw] h-[70vh] p-3"
             >
               <div className="shadow-md w-full h-full rounded-[35px] overflow-hidden transition duration-300 ease-in-out  hover:scale-[1.01] hover:shadow-2xl atc">
                 <img

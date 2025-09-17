@@ -14,7 +14,7 @@ const App = () => {
     <>
     <div className="h-[15vh] w-full flex justify-center items-center"></div>
     <div className="h-[15vh] w-full flex justify-center items-center fixed z-50 top-0">
-      <div className="w-[70%] h-[70%] border flex justify-evenly rounded-3xl bg-[#cbd5e146]">
+      <div className="w-[70%] max-sm:w-[98vw] h-[70%] border flex justify-evenly rounded-3xl bg-[#cbd5e146]">
         <button className=" text-shadow font-bold text-sm" onClick={()=>{setProduct(products.utils)}} >Home</button>
         <button className=" text-shadow font-bold text-sm" onClick={()=>{setProduct(mensProducts)}} >Mens</button>
         <button className=" text-shadow font-bold text-sm" onClick={()=>{setProduct(womensProducts)}} >Womens</button>
